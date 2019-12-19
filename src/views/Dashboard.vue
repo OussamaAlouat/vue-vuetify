@@ -33,7 +33,7 @@
         <EventTimeline :timeline="timeline" />
       </v-col>
     </v-row>
-    <v-snackbar v-model="snackbar">
+    <v-snackbar v-model="snackbar" :left="$vuetify.breakpoint.lgAndUp">
       You have selected {{ selectedEmployee.name }},
       {{ selectedEmployee.title }}
       <v-btn color="pink" text @click="snackbar = false">
