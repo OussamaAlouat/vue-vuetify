@@ -83,7 +83,7 @@ export default {
     },
     validateForm() {
       this.$refs.signUpForm.validate();
-    }
+    },
   },
 };
 </script>
